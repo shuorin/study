@@ -36,13 +36,34 @@
     <main class="main">
         <div class="inner-main">
             <div class="main-content">
-                <h2 class="main-content-title">Lorem Ipsum</h2>
-                <p class="main-content-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe consequatur earum pariatur! Similique ipsam soluta illo consectetur molestias quaerat voluptate? Voluptatibus officia repudiandae mollitia velit vitae maiores excepturi possimus repellat?</p>
-                <p class="main-content-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe consequatur earum pariatur! Similique ipsam soluta illo consectetur molestias quaerat voluptate? Voluptatibus officia repudiandae mollitia velit vitae maiores excepturi possimus repellat?</p>
-                <p class="main-content-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe consequatur earum pariatur! Similique ipsam soluta illo consectetur molestias quaerat voluptate? Voluptatibus officia repudiandae mollitia velit vitae maiores excepturi possimus repellat?</p>
-                <p class="main-content-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe consequatur earum pariatur! Similique ipsam soluta illo consectetur molestias quaerat voluptate? Voluptatibus officia repudiandae mollitia velit vitae maiores excepturi possimus repellat?</p>
+              <form action="action_page.php" method="post">
+                <div class="imgcontainer">
+                  <h2>Регистрация нового пользователя:</h2>
+                </div>
+              
+                <div class="container">
+                    <label for="uname">Логин</label>
+                    <input type="text" placeholder="Введите логин" name="uname" minlength="5" maxlength="15" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Email" 
+                           pattern="+@+." size="30" required>
+                    <br>
+                    <label for="psw">Пароль</label>
+                    <input type="password" placeholder="Введите пароль" minlength="10" maxlength="20" required>
+                    <br>
+                    <label for="psw">Подтвердите пароль</label>
+                    <input type="password" placeholder="Подтвердите пароль" id="password2" minlength="10" maxlength="20" />
+                    <br><br>
+                    <label for="icon">Загрузить аватар</label><br>
+                    <input type="file" id="myFile" name="filename">
+                    <br><br>
+                    <button type="submit">Войти</button>
+                </div>
+              </form>
             </div>
         </div>
     </main>
 </body>
 </html>
+
