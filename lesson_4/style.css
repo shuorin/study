@@ -69,3 +69,10 @@
 pre {
     text-align: center;
 }
+figcaption {
+    color: rgb(70, 39, 0);
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    margin-top: -30px;
+}
