@@ -1,5 +1,5 @@
 let s = 1000;
-let kolichestvoGryadok = Math.floor(s / (15 *25));
+let kolichestvoGryadok = Math.floor(s / (15 * 25));
 
 
 let osatokGryadok = function (sGryadki) {
