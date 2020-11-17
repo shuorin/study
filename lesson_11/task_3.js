@@ -10,7 +10,7 @@ let otr = "Отрицательное", pol = "Положительное", nul 
     if ((x >= -9) && (x <= -1)) {
         console.log(otr, od, ch);
     }
-    if ((x = 0) && (x = 0)) {
+    if ((x == 0) && (x == 0)) {
         console.log(nul, ch);
     }
     if ((x >= 1) && (x <= 9)) {
