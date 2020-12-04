@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .color_box{
+            display: grid;
+            grid-template-columns: 50px 50px 50px;
+        }
+        .color{
+            width: 50px;
+            height: 50px;
+            border: #75a5bc solid 1px;
+            border-radius: 50%;;
+        }
+        .color_disable{
+            background-color: blue;
+        }
+        .color_enable{
+            background-color: purple;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="color_box">
+        <div class="color color_disable" id="color_1" onclick="saveColor(event)()"></div>
+        <div class="color color_disable" id="color_2" onclick="saveColor(event)()"></div>
+        <div class="color color_disable" id="color_3" onclick="saveColor(event)()"></div>
+    </div>
+    <hr>
+    
+    <button id="increment">Нажми меня</button>
+    <hr>
+    
+    <div id="comments"></div>
+    <textarea name="" id="comment_textarea" cols="30" rows="2"></textarea>
+    <button id="comment_button">Добавить комментарий</button>
+    <hr>
+    
+    <div id="table"></div>
+    <script src="task_1.js"></script>
+    <script src="task_2.js"></script>
+    <script src="task_3.js"></script>
+    <script src="task_4.js"></script>
+</body>
+</html>
